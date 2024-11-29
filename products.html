@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="shortcut icon" href="../imagens/LOGO2.png" type="image/x-icon">
+  <!-- Link para Javascrip - NAO EXCLUIR -->
+<script type="module" src="./scripts/products.js" defer></script>
+<!-- Link para Javascrip - NAO EXCLUIR -->
+</head>
+<body>
+
+  <header>
+    <!-- barra de informações -->
+ 
+    <div class="barInfo">
+        <p>Compre aqui e recebe em todo Brasil</p>
+    </div>
+    <!-- fim da barra de informações -->
+
+    <!-- navegação -->
+    
+    <nav class="headerInfo">
+       
+        <div class="HeaderLinks">
+          <div class="logo"><i><img src="../imagens/LOGO2.png" alt="logo"></i></div>
+            <div class="links">
+                <a href="./sobre.html">Sobre nós</a>
+                <a href="./contato.html">Fale Conosco</a>
+                <a href="./products.html">Produtos</a>
+                <a href="./checkout.html">Pedidos</a>
+                <a href="./contato.html">Feedback</a>
+                <a href="./adm.html">Administrador</a>
+                <a href="index.html">Index</a>
+                <a href="#">Entrar</a>
+
+            </div>
+               <div class="logo"><a href="./checkout.html"><i><img id="carrinho" src="../imagens/carrinhoLogo.png" alt="carrinho"></i></a></div> 
+        </div>
+            
+    </nav>
+
+    <!-- fim da navegação -->
+     
+
+
+</header>
+
+<style>
+    .stars img{
+        width: 8rem !important;
+    }
+</style>
+
+
+<main>
+
+ 
+    <div class="filtrar_dados">
+        
+        <div>
+        <form action="">
+            <h3>filtro</h3>
+            <div>
+            <label for="">Marcas</label><br>
+            <input type="checkbox" id="marca1" name="marca1" value="Rolêx">
+            <label for="marca1"> Rolex</label><br>
+            <input type="checkbox" id="marca2" name="marca2" value="Patek Philippe">
+            <label for="marca2"> Patek Philippe</label><br>
+            <input type="checkbox" id="marca3" name="marca3" value=" Omega">
+            <label for="marca3"> Omega</label>
+            <input type="checkbox" id="marca4" name="marca4" value=" Tag Heuer">
+            <label for="marca3"> Tag Heuer</label>
+        </div>
+
+       <div>
+            <label for="">Estilo</label><br>
+            <input type="checkbox" id="estilo1" name="estilo1" value="Casual">
+            <label for="estilo1">Casual</label><br>
+            <input type="checkbox" id="estilo2" name="estilo2" value="Esportista">
+            <label for="estilo2"> Esportista</label><br>
+            <input type="checkbox" id="estilo3" name="estilo3" value=" Refinado">
+            <label for="estilo3"> Refinado</label>
+        </div> 
+
+
+        <input type="submit" value="Filtrar">
+        </form>
+    </div>
+    </div>
+
+    
+    <div class="container"><!--O famoso  container-->
+        <div class="pesquisa"> <!--div para a barra de pesquisa do site-->
+            <input type="text" placeholder="Pesquise aqui">
+            <button>Pesquisar</button>
+        </div><!--FIM div para a barra de pesquisa do site-->
+
+    </div><!--FIM do container-->
+
+    <!-- Componente Grid de Produtos -->
+    <div class="container">
+        <section class="section-product-grid">
+        <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+        </section>
+    </div>
+
+   <div class="container">
+        <section class="marcador_pagina">
+        <p>1 de 20</p>
+        <button>Próxima página</button>
+        </section>
+    </div>
+
+
+</main>
+
+      <footer> <!--INICIO DO FOOTER-->
+
+        <div class="containerFooter"> <!--Container geral DO FOOTER-->
+        
+                <div class="infFooterA"><!--div para os links de navs -->
+                    <h3>Insitucional</h3>
+                    <nav>
+                        <a href="">Sobre nós</a>
+                        <a href="">Fale conosco</a>
+                        <a href="">Politica de trocas</a>
+                        <a href="">Política de privacidade</a>
+                        <a href="">Prazo de Envio</a>
+                    </nav>
+                </div><!-- FIM div para os links de navs -->
+        
+        
+                <div class="infFooterB">
+        
+                    <div class="atendimentoFooter"><!--div para as informações de atendimento -->
+                        <h3>Atendimento</h3>
+                        <nav>
+                            <p>(19) 9999-9999</p>
+                            <p>(19) 8888-8888</p>
+                            <p>R.Senai Roberto Mange Campinas, 255</p>
+                        </nav>
+                    </div><!-- FIM div para as informações de atendimento -->
+        
+                    <div class="redesSociaisFooter"> <!--div para os links das redes -->
+                        <h3>Redes Sociais</h3>
+                        <p>Acompnahe as novidades pela internet</p>
+                        <nav class="navLinks">
+                            <a href=""><img src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png" alt="fotoWhattsApp"></a>
+                            <a href=""><img src="https://www.freepngimg.com/download/logo/62372-computer-neon-instagram-icons-hd-image-free-png.png" alt="foto insta"></a>
+                            <a href=""><img src="https://i.pinimg.com/originals/c3/76/40/c37640cf1bf160d267596d3638afdac6.png" alt="foto titok"></a>
+                        </nav>
+                    
+                    </div><!--FIM div para os links das redes -->
+                </div>
+        </div> <!-- FIM  Container geral DO FOOTER-->
+        
+        <div class="mencaoFooter"><p data-aos="fade-right">Developed by Kauan Afonso Ds16</p></div> <!--  Menção ao desenvolvedor -->
+            
+        </footer> <!--FIM DO FOOTER-->
+      
+           
+
+</body>
+</html>
+
+
