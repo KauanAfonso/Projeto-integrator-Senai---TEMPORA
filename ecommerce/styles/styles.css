@@ -92,7 +92,7 @@ max-width: 250px;
 }
 
 .casual{
-    background-image: url('../../imagens/ftCasual.png');
+    background-image: url('../imagens/ftCasual.png');
     background-repeat:no-repeat ;
     background-size:cover;
     width: 19rem;
@@ -105,7 +105,7 @@ max-width: 250px;
 }
 
 .esportivos{
-    background-image: url('../../imagens/ftEsportivo.png');
+    background-image: url('../imagens/ftEsportivo.png');
     background-repeat:no-repeat ;
     background-size: cover;
     width: 19rem;
@@ -118,7 +118,7 @@ max-width: 250px;
 }
 
 .todosOsModelos{
-    background-image: url('../../imagens/ftTodosModelos.png');
+    background-image: url('../imagens/ftTodosModelos.png');
     background-repeat:no-repeat ;
     background-size: cover;
     width: 39rem;
