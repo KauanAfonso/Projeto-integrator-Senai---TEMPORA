@@ -18,7 +18,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         codigoProduto: 2,
         tituloProduto: "Rolex Datejust 31mm - Clássico e Elegante",
         preco: 7999.99,
-        descricao: "Design intemporal e ideal para o uso diário, com a qualidade inconfundível da Rolex.",
+        descricao: "Design intemporal e ideal para o uso diário, com a qualidade inconfundível da melhor fornecedora Tempora.",
         imagemProduto: {
             img1: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-3.jpg?w=1500&h=1500&v=202411080939",
             img2: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-2.jpg?w=1500&h=1500&v=202411080939",
