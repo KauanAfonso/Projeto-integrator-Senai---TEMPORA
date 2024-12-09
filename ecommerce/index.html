@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link para Javascrip - NAO EXCLUIR -->
+  <script type="module" src="./scripts/home.js" defer></script>
+  <link rel="shortcut icon" href="./imagens/LOGO2.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <link rel="shortcut icon" href="./imagens/LOGO2.png" type="image/x-icon">
+  
+  <style>
+    /*Para essa tela o header precisa de um 100vh pois após dar o npm install as outras telas estavam bugando*/
+    header{
+      height: 100vh !important;
+    }
+    .stars img{
+            width: 8rem !important;
+      }
+    
+  
+  </style>
+
+</head>
+<!-- Link para Javascrip - NAO EXCLUIR -->
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+
+    
+    <!-- barra de informações -->
+ 
+    <div class="barInfo">
+        <p>Compre aqui e recebe em todo Brasil</p>
+    </div>
+    <!-- fim da barra de informações -->
+
+    <!-- navegação -->
+    
+    <nav class="headerInfo">
+       
+      <div class="HeaderLinks">
+        <div class="logo"><i><img src="./imagens/LOGO2.png" alt="logo"></i></div>
+          <div class="links">
+              <a href="./sobre.html">Sobre nós</a>
+              <a href="./contato.html">Fale Conosco</a>
+              <a href="./products.html">Produtos</a>
+              <a href="./checkout.html">Pedidos</a>
+              <a href="./contato.html">Feedback</a>
+              <a href="./adm.html">Administrador</a>
+              <a href="index.html">Index</a>
+              <a href="#">Entrar</a>
+
+          </div>
+             <div class="logo"><a href="./checkout.html"><i><img id="carrinho" src="./imagens/carrinhoLogo.png" alt="carrinho"></i></a></div> 
+      </div>
+          
+  </nav>
+
+    <!-- fim da navegação -->
+
+    <!-- container -->
+    <div class="container">
+
+        <!-- layout de imagens -->
+        <div class="layoutPrincipal" >
+            <div id="containerImgPrincipal" data-aos="fade-right" data-aos-offset="300"data-aos-easing="ease-in-sine">
+                <img id="imgPrincipal" src="./imagens/relogioNav1.png" alt="relogio"></div>
+            <div class="layoutSegundario" data-aos="fade-left">
+                <div class="containerImgSegundario"><img src="./imagens/relogioNav2.png" alt="relogio"></div>
+                <div class="containerImgSegundario" id="containerImgSegundario2"><img src="./imagens/relogioNav3.png" alt="relogio"></div>
+            </div>
+        </div>
+        <!-- fim do layout de imagens -->
+
+        <!-- filtros rapidos  -->
+        <div class="filtroRapidos">
+            <div class="casual"><h1>Casuais</h1></div>
+            <div class="esportivos"><h1>Esportivos</h1> </div>
+            <div class="todosOsModelos"><h1>Todos os modelos</h1></div>
+        </div>
+        <!-- fim dos filtros rapidos -->
+    </div>
+    <!-- fim do container -->
+</header>
+
+ 
+<main>
+     <!-- Componente Carrousel de Produtos -->
+     
+     <section id="section-1" class="section-product-carrousel">
+      <div class="container">
+
+        <div class="titulos"> <!--div titulos para os titulos do site-->
+          <h2>Mais vendidos</h2>
+        </div><!--FIM div titulos para os titulos do site-->
+ 
+        <swiper-container class="carrousel  mySwiper" pagination="true" pagination-clickable="true" navigation="true" pagination="true" pagination-clickable="true" space-between="30"
+        slides-per-view="3">
+          <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+        </swiper-container>
+
+        
+    </div>
+  
+    </section>
+  
+  
+  
+    <div id="banner-1">
+      <div class="container">
+      <div class="banners"><!-- div para os banners-->
+        <img src="./imagens/BANNER1.png" alt="banner">
+      </div><!--FIM div para os banners-->
+    </div>
+</div>
+  
+    <!-- Componente Carrousel de Produtos -->
+    <section id="section-2" class="section-product-carrousel " >
+      <div class="container">
+
+      <div class="titulos"> <!--div titulos para os titulos do site-->
+          <h2>Descontos</h2>
+      </div><!--FIM div titulos para os titulos do site-->
+
+      <swiper-container class="carrousel  mySwiper" pagination="true" pagination="true" pagination-clickable="true" navigation="true" pagination-clickable="true" space-between="30"
+      slides-per-view="3">
+        <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+      </swiper-container>
+    </div>
+    </section>
+
+  
+    <div id="banner-2">
+        <div class="container">
+        <div class="banners"><!-- div para os banners-->
+          <img src="./imagens/Group 15.png" alt="banner">
+        </div><!--FIM div para os banners-->
+      </div>
+  </div>  
+    <!-- Componente Carrousel de Produtos -->
+    
+    <section id="section-3" class="section-product-carrousel">
+      <div class="container">
+
+          <div class="titulos"> <!--div titulos para os titulos do site-->
+            <h2>Novidades</h2>
+          </div><!--FIM div titulos para os titulos do site-->
+
+          <swiper-container class="carrousel mySwiper" pagination="true"  pagination="true" pagination-clickable="true" navigation="true" pagination-clickable="true" space-between="30"
+          slides-per-view="2">
+            <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+          </swiper-container>
+          
+        </div>
+    </section>
+
+
+      
+</main>
+
+
+
+<footer> <!--INICIO DO FOOTER-->
+
+  <div class="containerFooter"> <!--Container geral DO FOOTER-->
+  
+          <div class="infFooterA"><!--div para os links de navs -->
+              <h3>Insitucional</h3>
+              <nav>
+                  <a href="">Sobre nós</a>
+                  <a href="">Fale conosco</a>
+                  <a href="">Politica de trocas</a>
+                  <a href="">Política de privacidade</a>
+                  <a href="">Prazo de Envio</a>
+              </nav>
+          </div><!-- FIM div para os links de navs -->
+  
+  
+          <div class="infFooterB">
+  
+              <div class="atendimentoFooter"><!--div para as informações de atendimento -->
+                  <h3>Atendimento</h3>
+                  <nav>
+                      <p>(19) 9999-9999</p>
+                      <p>(19) 8888-8888</p>
+                      <p>R.Senai Roberto Mange Campinas, 255</p>
+                  </nav>
+              </div><!-- FIM div para as informações de atendimento -->
+  
+              <div class="redesSociaisFooter"> <!--div para os links das redes -->
+                  <h3>Redes Sociais</h3>
+                  <p>Acompnahe as novidades pela internet</p>
+                  <nav class="navLinks">
+                      <a href=""><img src="https://imagepng.org/wp-content/uploads/2017/08/WhatsApp-icone.png" alt="fotoWhattsApp"></a>
+                      <a href=""><img src="https://www.freepngimg.com/download/logo/62372-computer-neon-instagram-icons-hd-image-free-png.png" alt="foto insta"></a>
+                      <a href=""><img src="https://i.pinimg.com/originals/c3/76/40/c37640cf1bf160d267596d3638afdac6.png" alt="foto titok"></a>
+                  </nav>
+              
+              </div><!--FIM div para os links das redes -->
+          </div>
+  </div> <!-- FIM  Container geral DO FOOTER-->
+  
+  <div class="mencaoFooter"><p data-aos="fade-right">Developed by Kauan Afonso Ds16</p></div> <!--  Menção ao desenvolvedor -->
+      
+  </footer> <!--FIM DO FOOTER-->
+
+
+  
+
+</body>
+</html>
+
+
+
+
+
+
+
