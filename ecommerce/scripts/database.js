@@ -16,14 +16,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 2,
-        tituloProduto: "Rolex Datejust 31mm - Clássico e Elegante",
+        tituloProduto: "Relógio Rolex Explorer",
         preco: 7999.99,
         descricao: "Um relógio que une elegância e precisão. Ideal para quem valoriza estilo e funcionalidade. Perfeito para qualquer ocasião.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-3.jpg?w=1500&h=1500&v=202411080939",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-2.jpg?w=1500&h=1500&v=202411080939",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-6.jpg?w=1500&h=1500&v=202411080939",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-4.jpg?w=1500&h=1500&v=202411080939",
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-rolex-explorer-210592/411911-1.jpg?w=1500&h=1500&v=202412061331",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-rolex-explorer-210592/411911-2.jpg?w=1500&h=1500&v=202412061331",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-rolex-explorer-210592/411911-4.jpg?w=1500&h=1500&v=202412061331",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-rolex-explorer-210592/411911-5.jpg?w=1500&h=1500&v=202412061331",
         },
         categoriaProduto: "Casual",
         classificacaoProduto: "Novidades",
@@ -31,14 +31,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 3,
-        tituloProduto: "Omega Seamaster 300m - Profissional",
+        tituloProduto: "Relógio Longines HydroConquest",
         preco: 10500.99,
-        descricao: "Design clean e sofisticado. A combinação perfeita entre modernidade e tradição. Um acessório que se adapta ao seu estilo",
+        descricao: "https://orit.fbitsstatic.net/img/p/relogio-longines-hydroconquest-210587/411906-1.jpg?w=1500&h=1500&v=202412061258",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-3.jpg?w=1500&h=1500&v=202411081509",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-2.jpg?w=1500&h=1500&v=202411081509",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-5.jpg?w=1500&h=1500&v=202411081509",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-6.jpg?w=1500&h=1500&v=202411081509",
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-longines-hydroconquest-210587/411906-2.jpg?w=1500&h=1500&v=202412061258",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-longines-hydroconquest-210587/411906-5.jpg?w=1500&h=1500&v=202412061258",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-longines-hydroconquest-210587/411906-6.jpg?w=1500&h=1500&v=202412061258",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-longines-hydroconquest-210587/411906-4.jpg?w=1500&h=1500&v=202412061258",
         },
         categoriaProduto: "Esportivo",
         classificacaoProduto: "Novidades",
@@ -46,14 +46,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 4,
-        tituloProduto: "Rolex Datejust 31mm Edição Limitada",
+        tituloProduto: "Relógio Cartier Vemeil Must",
         preco: 11500.75,
         descricao: "Um modelo refinado que exala classe e sofisticação. Com precisão impecável. Ideal para quem busca excelência em cada detalhe.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210299/411596-5.jpg?w=1500&h=1500&v=202411080939",
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-cartier-vemeil-must-210530/411849-2.jpg?w=1500&h=1500&v=202412021646",
             img3: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210299/411596-2.jpg?w=1500&h=1500&v=202411080939",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210299/411596-3.jpg?w=1500&h=1500&v=202411080939",
-            img5: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210299/411596-1.jpg?w=1500&h=1500&v=202411080939",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-cartier-vemeil-must-210530/411849-3.jpg?w=1500&h=1500&v=202412021646",
+            img5: "https://orit.fbitsstatic.net/img/p/relogio-cartier-vemeil-must-210530/411849-1.jpg?w=1500&h=1500&v=202412021646",
             
         },
         categoriaProduto: "Casual",
@@ -62,14 +62,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 5,
-        tituloProduto: "Omega Seamaster Co-Axial - Mergulho Profundo",
+        tituloProduto: "Relógio Omega Speedmaster Date",
         preco: 12500.89,
-        descricao: "RSofisticação e modernidade em um único relógio. Perfeito para quem quer destacar sua personalidade. Um design que impressiona em qualquer ambiente.",
+        descricao: "Sofisticação e modernidade em um único relógio. Perfeito para quem quer destacar sua personalidade. Um design que impressiona em qualquer ambiente.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-3.jpg?w=1500&h=1500&v=202411081511",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-4.jpg?w=1500&h=1500&v=202411081511",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-2.jpg?w=1500&h=1500&v=202411081511",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-5.jpg?w=1500&h=1500&v=202411081511",
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-omega-speedmaster-date-210532/411851.jpg?w=1500&h=1500&v=202412021646",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-omega-speedmaster-date-210532/411851-1.jpg?w=1500&h=1500&v=202412021646",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-omega-speedmaster-date-210532/411851-2.jpg?w=1500&h=1500&v=202412021646",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-omega-speedmaster-date-210532/411851-3.jpg?w=1500&h=1500&v=202412021646",
         },
         categoriaProduto: "Esportivo",
         classificacaoProduto: "Novidades",
@@ -92,14 +92,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 7,
-        tituloProduto: "Relógio Rolex Oyster Perpetual Datejust 36mm",
+        tituloProduto: "Relógio Cartier Tank Française",
         preco: 9500.75,
         descricao: "Este Rolex icônico traz uma combinação de tradição e inovação. O Datejust 36mm é perfeito para quem busca um relógio casual com precisão e durabilidade inigualáveis.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-rolex-oyster-perpetual-datejust-36mm-209679/410951-2.jpg?w=1500&h=1500&v=no-value",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-rolex-oyster-perpetual-datejust-36mm-209679/410951-1.jpg?w=1500&h=1500&v=no-value",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-rolex-oyster-perpetual-datejust-36mm-209679/410951-4.jpg?w=1500&h=1500&v=no-value",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-rolex-oyster-perpetual-datejust-36mm-209679/410951-3.jpg?w=1500&h=1500&v=no-value"
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-cartier-tank-francaise-210528/411847.jpg?w=1500&h=1500&v=202412021646",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-cartier-tank-francaise-210528/411847-1.jpg?w=1500&h=1500&v=202412021646",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-cartier-tank-francaise-210528/411847-2.jpg?w=1500&h=1500&v=202412021646",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-cartier-tank-francaise-210528/411847-4.jpg?w=1500&h=1500&v=202412021646"
         },
         categoriaProduto: "Casual",
         classificacaoProduto: "Promocoes",
@@ -126,10 +126,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 8900.99,
         descricao: "Um acessório que combina tecnologia e estética. Criado para quem exige qualidade e design. Funcionalidade que se encaixa no seu estilo de vida.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-2.jpg?w=1500&h=1500&v=202411081509",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-3.jpg?w=1500&h=1500&v=202411081509",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-5.jpg?w=1500&h=1500&v=202411081509",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-6.jpg?w=1500&h=1500&v=202411081509"
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-210515/411824.jpg?w=1500&h=1500&v=202411281623",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-210515/411824-1.jpg?w=1500&h=1500&v=202411281623",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-210515/411824-2.jpg?w=1500&h=1500&v=202411281623",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-210515/411824-3.jpg?w=1500&h=1500&v=202411281623"
         },
         categoriaProduto: "Esportivo",
         classificacaoProduto: "Promocoes",
@@ -137,14 +137,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 10,
-        tituloProduto: "Relógio Rolex Oyster Perpetual DateJust 38mm",
+        tituloProduto: "Relógio Rado Integral",
         preco: 2800.99,
         descricao: "Elegância e praticidade em um modelo versátil. Adaptável a qualquer estilo e momento. Um toque de sofisticação em cada olhar.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-3.jpg?w=1500&h=1500&v=202411081509",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-2.jpg?w=1500&h=1500&v=202411081509",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-5.jpg?w=1500&h=1500&v=202411081509",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-omega-seeamaster-professional-300-210296/411593-6.jpg?w=1500&h=1500&v=202411081509"
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-rado-integral-210289/411586.jpg?w=1500&h=1500&v=no-value",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-rado-integral-210289/411586-2.jpg?w=1500&h=1500&v=no-value",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-rado-integral-210289/411586-1.jpg?w=1500&h=1500&v=no-value",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-rado-integral-210289/411586-3.jpg?w=1500&h=1500&v=no-value"
         },
         categoriaProduto: "Casual",
         classificacaoProduto: "Promocoes",
@@ -167,14 +167,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 12,
-        tituloProduto: "Relógio Rolex Oyster Perpetual Datejust 36mm",
+        tituloProduto: "Relógio Movado Watch Bold Black",
         preco: 8550.99,
         descricao: "Para quem valoriza os detalhes. Este relógio oferece precisão e um toque de sofisticação. A escolha perfeita para quem aprecia um bom design.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-3.jpg?w=1500&h=1500&v=202411081511",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-4.jpg?w=1500&h=1500&v=202411081511",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-2.jpg?w=1500&h=1500&v=202411081511",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-co-axial-210297/411594-5.jpg?w=1500&h=1500&v=202411081511"
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-movado-watch-bold-black-209902/411178.jpg?w=1500&h=1500&v=no-value",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-movado-watch-bold-black-209902/411178-1.jpg?w=1500&h=1500&v=no-value",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-movado-watch-bold-black-209902/411178-4.jpg?w=1500&h=1500&v=no-value",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-movado-watch-bold-black-209902/411178-5.jpg?w=1500&h=1500&v=no-value"
         },
         categoriaProduto: "Casual",
         classificacaoProduto: "Promocoes",
@@ -184,12 +184,12 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         codigoProduto: 13,
         tituloProduto: "Relógio Rolex Oyster Perpetual Datejust 36mm",
         preco: 12999.99,
-        descricao: "Clássico e contemporâneo. Um modelo ideal para quem busca versatilidade e estilo. Com um toque de elegância que destaca qualquer visual",
+        descricao: "Relógio La Maisonnette / Grandeur 21 Lignes",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-professional-300-210299/411595-3.jpg?w=1500&h=1500&v=202411081509",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-professional-300-210299/411595-2.jpg?w=1500&h=1500&v=202411081509",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-professional-300-210299/411595-5.jpg?w=1500&h=1500&v=202411081509",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-omega-seamaster-professional-300-210299/411595-4.jpg?w=1500&h=1500&v=202411081509"
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-la-maisonnette-grandeur-21-lignes-209676/410948.jpg?w=1500&h=1500&v=no-value",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-la-maisonnette-grandeur-21-lignes-209676/410948-1.jpg?w=1500&h=1500&v=no-value",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-la-maisonnette-grandeur-21-lignes-209676/410948-4.jpg?w=1500&h=1500&v=no-value",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-la-maisonnette-grandeur-21-lignes-209676/410948-3.jpg?w=1500&h=1500&v=no-value"
         },
         categoriaProduto: "Casual",
         classificacaoProduto: "Promocoes",
@@ -198,14 +198,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
     {
         codigoProduto: 14,
-        tituloProduto: "Relógio Omega Seamaster Diver 300M 36mm",
+        tituloProduto: "Relógio H.Stern Safira",
         preco: 12000.99,
         descricao: "O Omega Seamaster Diver 300M 36mm é a escolha perfeita para quem busca um relógio de luxo com robustez e estilo incomparáveis. Com design inovador e resistência à água de até 300 metros, este relógio é ideal para os amantes de esportes aquáticos e para quem aprecia a tradição da relojoaria suíça.",
         imagemProduto: {
-            img1: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-2.jpg?w=1500&h=1500&v=202411080939",
-            img2: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-6.jpg?w=1500&h=1500&v=202411080939",
-            img3: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-3.jpg?w=1500&h=1500&v=202411080939",
-            img4: "https://orit.fbitsstatic.net/img/p/relogio-rolex-datejust-31mm-210298/411595-4.jpg?w=1500&h=1500&v=202411080939"
+            img1: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-209177/410448.jpg?w=1500&h=1500&v=no-value",
+            img2: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-209177/410448-1.jpg?w=1500&h=1500&v=no-value",
+            img3: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-209177/410448-3.jpg?w=1500&h=1500&v=no-value",
+            img4: "https://orit.fbitsstatic.net/img/p/relogio-h-stern-safira-209177/410448-2.jpg?w=1500&h=1500&v=no-value"
         },
         categoriaProduto: "Casual",
         classificacaoProduto: "Mais_Vendidos",
@@ -228,7 +228,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto: 16,
-        tituloProduto: "Relógio Tag Heuer Aquaracer 36mm",
+        tituloProduto: "Relógio Omega Seamaster Gold",
         preco: 10500.99,
         descricao: "Elegante e versátil. Feito para quem aprecia um toque refinado em seu visual diário. Perfeito para qualquer ocasião, com sofisticação e estilo.",
         imagemProduto: {

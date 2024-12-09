@@ -12,7 +12,7 @@ class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == '/':
-            self.path = '/index.html'  # Página padrão
+            self.path = '/ecommerce/index.html'  # Página padrão
         return super().do_GET()
 
 # Inicia o servidor com SSL
