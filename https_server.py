@@ -3,7 +3,7 @@ import socketserver
 import ssl
 
 # Configurações do servidor
-PORT = 8080
+PORT = 5000
 DIRECTORY = "./ecommerce"  # Diretório onde os arquivos estão
 
 class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler): 
@@ -12,7 +12,7 @@ class MyHttpRequestHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == '/':
-            self.path = '/ecommerce/index.html'  # Página padrão
+            self.path = 'index.html'  # Página padrão
         return super().do_GET()
 
 # Inicia o servidor com SSL
