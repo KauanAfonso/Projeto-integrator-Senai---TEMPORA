@@ -6,9 +6,9 @@
 ![Imagem do Projeto](ecommerce/imagens/home.png)  <!-- Exemplo de imagem local -->
 **PRODUTO INDIVIDUAL**
 ![Imagem do Projeto](ecommerce/imagens/Produto.png)  <!-- Exemplo de imagem local -->
-**PRODUTO CARRINHO**
+**PÁGINA CARRINHO**
 ![Imagem do Projeto](ecommerce/imagens/carrinho.png)  <!-- Exemplo de imagem local -->
-**PRODUTO SOBRE NÓS**
+**PÁGINA SOBRE NÓS**
 ![Imagem do Projeto](ecommerce/imagens/fale_conosco.png)  <!-- Exemplo de imagem local -->
 
 ## 🎁 Páginas do Projeto
