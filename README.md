@@ -5,11 +5,11 @@
 **INDEX**
 ![Imagem do Projeto](ecommerce/imagens/home.png)  <!-- Exemplo de imagem local -->
 **PRODUTO INDIVIDUAL**
-![Imagem do Projeto](ecommerce/imagens/produto.png)  <!-- Exemplo de imagem local -->
+![Imagem do Projeto](ecommerce/imagens/Produto.png)  <!-- Exemplo de imagem local -->
 **PRODUTO CARRINHO**
-![Imagem do Projeto](ecommerce/imagens/carrinho.png)  <!-- Exemplo de imagem local -->
+![Imagem do Projeto](ecommerce/imagens/Carrinho.png)  <!-- Exemplo de imagem local -->
 **PRODUTO SOBRE NÓS**
-![Imagem do Projeto](ecommerce/imagens/sobre_nos.png)  <!-- Exemplo de imagem local -->
+![Imagem do Projeto](ecommerce/imagens/Sobre_nos.png)  <!-- Exemplo de imagem local -->
 
 ## 🎁 Páginas do Projeto
 - **index**: Página inicial do projeto.
