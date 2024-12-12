@@ -45,4 +45,26 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Exportação em excel**: O administrador poderá exportar pedidos para um excel.
 
 
+Para garantir que todas as dependências do projeto **TEMPORA - E-commerce de Relógios** sejam instaladas corretamente, é fundamental executar o comando `npm install` no diretório correto. Veja os passos para configurar o ambiente:  
+
+---
+
+### **Aviso: Configure o Ambiente de Desenvolvimento**  
+
+1. **Certifique-se de estar no diretório do projeto:**  
+   - Abra o terminal ou prompt de comando.  
+   - Navegue até o diretório principal do projeto TEMPORA:  
+     ```bash
+     cd /caminho/para/o/diretorio/ecommerce
+     ```
+
+2. **Instale as dependências do projeto:**  
+   - No diretório raiz onde o arquivo `package.json` está localizado, execute:  
+     ```bash
+     npm install
+     ```
+   - Este comando irá instalar todas as bibliotecas e pacotes necessários descritos no `package.json`.
+
+ TEMPORA! 🚀
+
 
