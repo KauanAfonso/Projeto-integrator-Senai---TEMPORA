@@ -35,8 +35,7 @@ O projeto **TEMPORA** tem como objetivo a criação de uma plataforma de e-comme
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, JS
-  
+    
 ## ⚙️ Princiáis Funcionalidades
 
 - **Catálogo de Produtos**: Página com a listagem de relógios, com filtros por categoria, preço e marca (FRONT END SOMENTE).
